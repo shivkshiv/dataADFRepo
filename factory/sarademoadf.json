@@ -1,0 +1,15 @@
+{
+	"name": "sarademoadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6192554a-cfc7-4042-85cc-58e4ff7d16fc",
+		"tenantId": "fbfc56d0-57cc-4839-ab3b-67226b3a6e04"
+	}
+}
