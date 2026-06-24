@@ -1,0 +1,59 @@
+{
+	"name": "StudentExcel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageSara",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "student (2)",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "studentData.xls",
+				"container": "inputfile"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "StudentID",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Age",
+				"type": "String"
+			},
+			{
+				"name": "Gender",
+				"type": "String"
+			},
+			{
+				"name": "Class",
+				"type": "String"
+			},
+			{
+				"name": "Section",
+				"type": "String"
+			},
+			{
+				"name": "RollNo",
+				"type": "String"
+			},
+			{
+				"name": "Email",
+				"type": "String"
+			},
+			{
+				"name": "Phone",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

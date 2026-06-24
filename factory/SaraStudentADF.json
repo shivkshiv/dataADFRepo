@@ -1,0 +1,15 @@
+{
+	"name": "SaraStudentADF",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "726b26a7-6d79-4606-98ed-443e65006682",
+		"tenantId": "fbfc56d0-57cc-4839-ab3b-67226b3a6e04"
+	}
+}

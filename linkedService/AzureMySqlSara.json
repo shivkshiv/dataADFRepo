@@ -1,0 +1,12 @@
+{
+	"name": "AzureMySqlSara",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureMySql",
+		"typeProperties": {
+			"connectionString": "server=studentdata.mysql.database.azure.com;port=3306;database=studentdb;uid=SaraDB;sslmode=1;usesystemtruststore=0",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEIzQzI0NDUyLTRDRTMtNEQxQi1CRTYwLUNFOUY2MjkwRUM2QV9hYjFjZjQ3Mi05MjAxLTQyYjktYjRmZi1hYWEyMDI0N2M3OTkiDQp9"
+		}
+	}
+}
